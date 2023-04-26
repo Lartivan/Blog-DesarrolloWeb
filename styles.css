@@ -1,7 +1,8 @@
-* { 
+* {
     font-family: sans-serif;
 }
-header{
+
+header {
     height: 20px;
 }
 
@@ -10,7 +11,7 @@ body {
 }
 
 nav {
-    background-color: rgba(225, 208, 201,0.5);
+    background-color: rgba(225, 208, 201, 0.5);
     margin-left: auto;
     display: flex;
     flex-direction: row;
@@ -22,7 +23,7 @@ h1 {
     margin-left: 20px;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
@@ -68,20 +69,24 @@ a {
 }
 
 aside {
-    background-color: rgba(209, 211, 164,0.2);
+    background-color: rgba(209, 211, 164, 0.2);
     padding: 20px;
     border-radius: 20px;
-    flex: 100%;
+    flex: 500px;
     height: 520px;
+    justify-content: center;
+    text-align: center;
 }
 
 aside img {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     border: solid black;
     border-radius: 50%;
-    margin-left: 10%;
-    margin-right: 10%;
+}
+
+aside h3 {
+    font-size: 30px;
 }
 
 article {
@@ -95,12 +100,12 @@ article img {
     height: 180px;
     width: 210px;
     border-radius: 10%;
-    
+
 }
 
 footer {
     height: 50px;
-    background-color: rgba(122, 183, 197,0.5);
+    background-color: rgba(122, 183, 197, 0.5);
 
 }
 
@@ -109,32 +114,36 @@ footer {
     padding-top: 25px;
 }
 
-aside h3{
-    text-align: center;
-    font-size: 30px;
-}
 
-.deportes{
+
+.deportes {
     margin: 0 15px 15px;
 }
 
-.info{
-    border-radius: 20px;   
-    background-color: rgba(233, 221, 217,0.4);
+.info {
+    border-radius: 20px;
+    background-color: rgba(233, 221, 217, 0.4);
 }
 
-.parrafo{
+.parrafo {
     display: flex;
 }
 
-.parrafo p{
-    margin-top: 2px;
+.parrafo p {
+ 
     padding-left: 10px;
-    font-size:90%;
+    font-size: 90%;
     line-height: 150%;
 }
-.pie a{
-   text-decoration: none;
-   border: solid;
-   border-radius: 20px;
+
+.pie a {
+    padding: 10px;
+    text-decoration: none;
+    border: solid black;
+    border-radius: 20px;
+}
+.pie a:hover{
+    color: white;
+    border: solid white;
+    transition: all 0.5ms ease-in;
 }
